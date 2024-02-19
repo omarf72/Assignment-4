@@ -49,7 +49,7 @@ public class App {
                     //for testing
                     //System.out.println("Hi");
 
-                    //for testing
+                    //printing price
                     System.out.println(" The price will be  $" +String.format("%.2f",prices[index]));
 
                     //Reads how much money the user enters
@@ -83,6 +83,8 @@ public class App {
                     if(proceed.toLowerCase().equals("no")) {
                         System.out.println("You will be refunded $" + dolarFormat.format(money));
                     }
+
+                    System.out.println("Thanks for buying. Enjoy!");
 
                 }
 
